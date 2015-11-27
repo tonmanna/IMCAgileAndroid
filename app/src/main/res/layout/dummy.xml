@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_id1"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top"
+        android:layout_centerHorizontal="true"
+
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="ฌข 1597"
+        />
+    <Button
+        android:id="@+id/btn_id2"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="สฬ 5420"
+        />
+
+</LinearLayout>
